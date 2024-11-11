@@ -409,7 +409,6 @@ predictions = (cnn.predict(X_field) > 0.5)
 accuracy = accuracy_score(y_field, predictions)
 print('Accuracy: %0.2f' % accuracy)
 
-#@title Run this to save your CNN model!
 from google.colab import drive
 import tensorflow as tf
 drive.mount('/content/gdrive')
